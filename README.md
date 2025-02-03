@@ -1,7 +1,7 @@
 # Task-Management-Copilot
 
 #### **Overview**
-This project is an **AI-powered Asana task manager** that integrates **OpenAI's GPT-4** with **Asana's API** to streamline task management using natural language commands. Users can create, list, complete, and delete tasks effortlessly through conversational inputs. The AI interprets the command and automates task actions inside Asana.
+This project is an **AI-powered task manager** that integrates **OpenAI's GPT-4** with **API** to streamline task management using natural language commands. Users can create, list, complete, and delete tasks effortlessly through conversational inputs. The AI interprets the command and automates task actions inside Asana.
 
 #### **Features**
 - ✅ **Natural Language Task Management** – Users can interact with Asana using simple commands like *"Create a task for report submission in Marketing project by Friday."*
@@ -14,7 +14,6 @@ This project is an **AI-powered Asana task manager** that integrates **OpenAI's 
 #### **Technologies Used**
 - **Python** 🐍
 - **OpenAI GPT-4** 🤖
-- **Asana API** 🔗
 - **Requests Library** 🌐
 - **JSON Parsing** 🗄️
 
@@ -28,17 +27,12 @@ This project is an **AI-powered Asana task manager** that integrates **OpenAI's 
 4. The user receives real-time confirmation of the task execution.
 
 #### **Setup Instructions**
-1. Clone the repository:
+1. Install dependencies:
    ```bash
-   git clone https://github.com/your-repo/AI-Asana-Task-Manager.git
-   cd AI-Asana-Task-Manager
+   pip install requests openai==0.28
    ```
-2. Install dependencies:
-   ```bash
-   pip install requests openai
-   ```
-3. Configure **Asana API Key** in the script.
-4. Run the program:
+2. Configure **Asana API Key** in the script.
+3. Run the program:
    ```bash
    python task_manager.py
    ```
